@@ -131,9 +131,9 @@ footer .donate:hover{border-color:var(--accent);color:var(--text);text-decoratio
 /* TAB FILTERS */
 .tab-row{display:flex;gap:0;border-bottom:2px solid var(--border);margin-bottom:32px;overflow-x:auto;-webkit-overflow-scrolling:touch;flex-wrap:nowrap;scrollbar-width:none;-ms-overflow-style:none}
 .tab-row::-webkit-scrollbar{display:none}
-.tab-row button{font-family:'Noto Sans Mono',monospace;font-size:12px;padding:12px 20px;background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-2px;cursor:pointer;color:var(--text-secondary);transition:all .2s;white-space:nowrap;flex-shrink:0}
+.tab-row button{font-family:'Noto Sans Mono',monospace;font-size:12px;padding:12px 20px;background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-2px;cursor:pointer;color:var(--text-secondary);transition:color .2s,border-color .2s;white-space:nowrap;flex-shrink:0}
 .tab-row button:hover{color:var(--text)}
-.tab-row button.active{color:var(--text);border-bottom-color:var(--accent);font-weight:600}
+.tab-row button.active{color:var(--text);border-bottom-color:var(--accent)}
 
 [data-theme="dark"] .tab-row button.active{border-bottom-color:var(--accent)}
 [data-theme="dark"] .badge-new{background:#1b3d21;color:#5cab68}
